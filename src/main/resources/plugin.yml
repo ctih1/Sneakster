@@ -1,0 +1,18 @@
+name: Sneakster
+version: '${version}'
+main: xyz.nevalaonni.sneakster.Sneakster
+api-version: '1.21'
+prefix: Sneakster
+authors: [Onni Nevala]
+description: Sneakifys your minecraft experience
+
+commands:
+  invis:
+    description: Makes a player invisible when not producing sound.
+    usage: /invis [player]
+    permission: sneakster.toggle
+
+  settings:
+    description: Change plugin settings.
+    usage: /invis setting value
+    permission: sneakster.settings
